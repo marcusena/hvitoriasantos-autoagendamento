@@ -52,14 +52,18 @@
 
                         <h5 data-aviso="tipoExame">Selecione o tipo de exame</h5>
 
-                        <p style="margin-bottom: 1rem;">Anexe aqui seu pedido médico ou algum outro documento necessário
-                            para a realização do exame.</p>
-                        <label class="custom-file-exameUpload" for="exameUpload"
-                            style="border-radius: 20px;padding:3px 1rem 3px 2rem;cursor:pointer;background:#e8e8e8 url(https://cdn1-originals.webdamdb.com/13725_134912591?cache=1656426931&amp;response-content-disposition=inline;filename=pasteUpload.png&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFscy53ZWJkYW1kYi5jb20vMTM3MjVfMTM0OTEyNTkxP2NhY2hlPTE2NTY0MjY5MzEmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmU7ZmlsZW5hbWU9cGFzdGVVcGxvYWQucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoyMTQ3NDE0NDAwfX19XX0_&amp;Signature=BjqvtFeli4OOJjBLUiUAT9vbQ0EvPlK8zJT7oj2pnY7FRHYvXq72t6lPJdo7j2aizGHjkI1AV1Z5xB05AwlHZ0TGUu-oG8wsH4Z015VaQ8YGG4z4dDiDVNgjT-A0H1DIoeSkNku48QXkODRsJh8x7hK9nbyrorRS6s3b~rs0KcWSwaQ9Wz5vSRkBF8co3wMERwz4BP6RhabU3kMYdNKE2inGHc9nUEl2ag~CX0yOt889wBVYVTiIduq3LT~CT2N0Oc-U4oaq7rH6VPteOmjQePmwM6WxQ1cR3-iO1F5chGq92QQkKNgac6HzFVRwn8--igpl2nwZmlqmjNWL0EjYvQ__&amp;Key-Pair-Id=APKAI2ASI2IOLRFF2RHA) left/contain no-repeat;">Escolher
-                            Arquivo </label> <input id="exameUpload" name="exameUpload" type="file" />
-                        <p id="UploadImgName" style="display:inline;">&nbsp;</p>
+                        <!-- REMOVER ESSA DIV QUE ESTA ENVOLVENDO O CONTEUDO ABAIXO CASO TENHA EXAME - PREENCHER OS OPTIONS -->
+                        <div class="deleteThisClassIfHaveExame" style="display:none">
+                            <p style="margin-bottom: 1rem;">Anexe aqui seu pedido médico ou algum outro documento
+                                necessário
+                                para a realização do exame.</p>
+                            <label class="custom-file-exameUpload" for="exameUpload"
+                                style="border-radius: 20px;padding:3px 1rem 3px 2rem;cursor:pointer;background:#e8e8e8 url(https://cdn1-originals.webdamdb.com/13725_134912591?cache=1656426931&amp;response-content-disposition=inline;filename=pasteUpload.png&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFscy53ZWJkYW1kYi5jb20vMTM3MjVfMTM0OTEyNTkxP2NhY2hlPTE2NTY0MjY5MzEmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmU7ZmlsZW5hbWU9cGFzdGVVcGxvYWQucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoyMTQ3NDE0NDAwfX19XX0_&amp;Signature=BjqvtFeli4OOJjBLUiUAT9vbQ0EvPlK8zJT7oj2pnY7FRHYvXq72t6lPJdo7j2aizGHjkI1AV1Z5xB05AwlHZ0TGUu-oG8wsH4Z015VaQ8YGG4z4dDiDVNgjT-A0H1DIoeSkNku48QXkODRsJh8x7hK9nbyrorRS6s3b~rs0KcWSwaQ9Wz5vSRkBF8co3wMERwz4BP6RhabU3kMYdNKE2inGHc9nUEl2ag~CX0yOt889wBVYVTiIduq3LT~CT2N0Oc-U4oaq7rH6VPteOmjQePmwM6WxQ1cR3-iO1F5chGq92QQkKNgac6HzFVRwn8--igpl2nwZmlqmjNWL0EjYvQ__&amp;Key-Pair-Id=APKAI2ASI2IOLRFF2RHA) left/contain no-repeat;">Escolher
+                                Arquivo </label> <input id="exameUpload" name="exameUpload" type="file" />
+                            <p id="UploadImgName" style="display:inline;">&nbsp;</p>
 
-                        <h5 data-aviso="arquivo" id="dataPreSpan">Anexe um arquivo</h5>
+                            <h5 data-aviso="arquivo" id="dataPreSpan">Anexe um arquivo</h5>
+                        </div>
                     </section>
                 </article>
 
